@@ -5,6 +5,7 @@ import (
 	"fmt"
 
 	pb "github.com/didirdt/proto_test/protobuff"
+	"github.com/randyardiansyah25/glg"
 	"github.com/randyardiansyah25/gostashlg"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
@@ -51,6 +52,7 @@ func InqHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error)
 		MsgResponse:  "Params INQ",
 	}
 
+	glg.Log("Send Inquiry:\n", msg, "\n")
 	resInquiry, err := Inquiry(client, msg)
 	if err != nil {
 		LogWrite(fmt.Sprintf("Error calling Inquiry: %s", err))
@@ -66,6 +68,7 @@ func TransactionHandler(client pb.TransactionServiceClient) (msg *pb.Message, er
 		MsgResponse:  "Params TRX",
 	}
 
+	glg.Log("Send Transaction:\n", msg, "\n")
 	resTransaction, err := Transaction(client, msg)
 	if err != nil {
 		LogWrite(fmt.Sprintf("Error calling Transaction: %s", err))
@@ -81,6 +84,7 @@ func ReversalHandler(client pb.TransactionServiceClient) (msg *pb.Message, err e
 		MsgResponse:  "Params Reversal",
 	}
 
+	glg.Log("Send Reversal:\n", msg, "\n")
 	resReversal, err := Reversal(client, msg)
 	if err != nil {
 		LogWrite(fmt.Sprintf("Error calling Reversal: %s", err))
@@ -96,6 +100,7 @@ func AdviceHandler(client pb.TransactionServiceClient) (msg *pb.Message, err err
 		MsgResponse:  "Params Advice",
 	}
 
+	glg.Log("Send Advice:\n", msg, "\n")
 	resAdvice, err := Advice(client, msg)
 	if err != nil {
 		LogWrite(fmt.Sprintf("Error calling Advice: %s", err))

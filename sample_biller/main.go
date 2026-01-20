@@ -37,24 +37,28 @@ func NewTransactionService() *TransactionService {
 }
 
 func (s *TransactionService) Inquiry(ctx context.Context, msg *pb.Message) (*pb.Message, error) {
+	LogWrite(fmt.Sprintf("received Inquiry: %+v", msg))
 	msg.ResponseCode = "0000"
 	msg.MsgResponse = "Inquiry"
 	return msg, nil
 }
 
 func (s *TransactionService) Transaction(ctx context.Context, msg *pb.Message) (*pb.Message, error) {
+	LogWrite(fmt.Sprintf("received Transaction: %+v", msg))
 	msg.ResponseCode = "0000"
 	msg.MsgResponse = "Transaction"
 	return msg, nil
 }
 
 func (s *TransactionService) Reversal(ctx context.Context, msg *pb.Message) (*pb.Message, error) {
+	LogWrite(fmt.Sprintf("received Reversal: %+v", msg))
 	msg.ResponseCode = "0000"
 	msg.MsgResponse = "Reversal"
 	return msg, nil
 }
 
 func (s *TransactionService) Advice(ctx context.Context, msg *pb.Message) (*pb.Message, error) {
+	LogWrite(fmt.Sprintf("received Advice: %+v", msg))
 	msg.ResponseCode = "0000"
 	msg.MsgResponse = "Advice"
 	return msg, nil

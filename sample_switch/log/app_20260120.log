@@ -1,371 +1,815 @@
-2026-01-20 14:32:13	[INFO]:	LOG
-, gRPC Client connected to :9090, 
-Detail:gRPC Client connected to :9090
-2026-01-20 14:32:13	[INFO]:	LOG
-, Inquiry Response: processingcode:"000000" responsecode:"0000" msgresponse:"Inquiry"
-, 
-Detail:Inquiry Response: processingcode:"000000" responsecode:"0000" msgresponse:"Inquiry"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Inquiry Response: processingcode:"000000" responsecode:"0000" msgresponse:"Inquiry"
-, 
-Detail:Inquiry Response: processingcode:"000000" responsecode:"0000" msgresponse:"Inquiry"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Transaction Response: processingcode:"000000" responsecode:"0000" msgresponse:"Transaction"
-, 
-Detail:Transaction Response: processingcode:"000000" responsecode:"0000" msgresponse:"Transaction"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Transaction Response: processingcode:"000000" responsecode:"0000" msgresponse:"Transaction"
-, 
-Detail:Transaction Response: processingcode:"000000" responsecode:"0000" msgresponse:"Transaction"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Transaction Response: processingcode:"000000" responsecode:"0000" msgresponse:"Transaction"
-, 
-Detail:Transaction Response: processingcode:"000000" responsecode:"0000" msgresponse:"Transaction"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Reversal Response: processingcode:"000000" responsecode:"0000" msgresponse:"Reversal"
-, 
-Detail:Reversal Response: processingcode:"000000" responsecode:"0000" msgresponse:"Reversal"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Reversal Response: processingcode:"000000" responsecode:"0000" msgresponse:"Reversal"
-, 
-Detail:Reversal Response: processingcode:"000000" responsecode:"0000" msgresponse:"Reversal"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Reversal Response: processingcode:"000000" responsecode:"0000" msgresponse:"Reversal"
-, 
-Detail:Reversal Response: processingcode:"000000" responsecode:"0000" msgresponse:"Reversal"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Reversal Response: processingcode:"000000" responsecode:"0000" msgresponse:"Reversal"
-, 
-Detail:Reversal Response: processingcode:"000000" responsecode:"0000" msgresponse:"Reversal"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:32:13	[INFO]:	LOG
-, Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: processingcode:"000000" responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, gRPC Client connected to :9090, 
-Detail:gRPC Client connected to :9090
-2026-01-20 14:33:20	[INFO]:	LOG
-, Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-, 
-Detail:Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-, 
-Detail:Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-, 
-Detail:Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-, 
-Detail:Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-, 
-Detail:Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-, 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-, 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-, 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-, 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:33:20	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice"
-, 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-
-2026-01-20 14:33:51	[INFO]:	LOG
-, gRPC Client connected to :9090, 
-Detail:gRPC Client connected to :9090
-2026-01-20 14:33:51	[INFO]:	LOG
-, Inquiry Response: responsecode:"0000" msgresponse:"Inquiry", 
-Detail:Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Inquiry Response: responsecode:"0000" msgresponse:"Inquiry", 
-Detail:Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Transaction Response: responsecode:"0000" msgresponse:"Transaction", 
-Detail:Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Transaction Response: responsecode:"0000" msgresponse:"Transaction", 
-Detail:Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Transaction Response: responsecode:"0000" msgresponse:"Transaction", 
-Detail:Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:33:51	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:34:07	[INFO]:	LOG
-, gRPC Client connected to :9090, <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Inquiry Response: responsecode:"0000" msgresponse:"Inquiry", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Inquiry Response: responsecode:"0000" msgresponse:"Inquiry", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Transaction Response: responsecode:"0000" msgresponse:"Transaction", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Transaction Response: responsecode:"0000" msgresponse:"Transaction", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Transaction Response: responsecode:"0000" msgresponse:"Transaction", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Reversal Response: responsecode:"0000" msgresponse:"Reversal", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", <no value>
-2026-01-20 14:34:07	[INFO]:	LOG
-, Advice Response: responsecode:"0000" msgresponse:"Advice", <no value>
-2026-01-20 14:34:46	[INFO]:	LOG, gRPC Client connected to :9090, 
-Detail:gRPC Client connected to :9090
-2026-01-20 14:34:46	[INFO]:	LOG, Inquiry Response: responsecode:"0000" msgresponse:"Inquiry", 
-Detail:Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-2026-01-20 14:34:46	[INFO]:	LOG, Inquiry Response: responsecode:"0000" msgresponse:"Inquiry", 
-Detail:Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-2026-01-20 14:34:46	[INFO]:	LOG, Transaction Response: responsecode:"0000" msgresponse:"Transaction", 
-Detail:Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-2026-01-20 14:34:46	[INFO]:	LOG, Transaction Response: responsecode:"0000" msgresponse:"Transaction", 
-Detail:Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-2026-01-20 14:34:46	[INFO]:	LOG, Transaction Response: responsecode:"0000" msgresponse:"Transaction", 
-Detail:Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-2026-01-20 14:34:46	[INFO]:	LOG, Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:34:46	[INFO]:	LOG, Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:34:46	[INFO]:	LOG, Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:34:46	[INFO]:	LOG, Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail:Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:34:46	[INFO]:	LOG, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:34:46	[INFO]:	LOG, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:34:46	[INFO]:	LOG, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:34:46	[INFO]:	LOG, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:34:46	[INFO]:	LOG, Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail:Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-gRPC Client connected to :9090, 
-Detail: gRPC Client connected to :9090
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Inquiry Response: responsecode:"0000" msgresponse:"Inquiry", 
-Detail: Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Inquiry Response: responsecode:"0000" msgresponse:"Inquiry", 
-Detail: Inquiry Response: responsecode:"0000" msgresponse:"Inquiry"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Transaction Response: responsecode:"0000" msgresponse:"Transaction", 
-Detail: Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Transaction Response: responsecode:"0000" msgresponse:"Transaction", 
-Detail: Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Transaction Response: responsecode:"0000" msgresponse:"Transaction", 
-Detail: Transaction Response: responsecode:"0000" msgresponse:"Transaction"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail: Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail: Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail: Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Reversal Response: responsecode:"0000" msgresponse:"Reversal", 
-Detail: Reversal Response: responsecode:"0000" msgresponse:"Reversal"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:36:15	[INFO]:	LOG, 
-Advice Response: responsecode:"0000" msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000" msgresponse:"Advice"
-2026-01-20 14:36:45	[INFO]:	LOG, 
+2026-01-20 15:21:48	[INFO]:	LOG, 
 gRPC Client connected to :9090, 
 Detail: gRPC Client connected to :9090
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Inquiry Response: responsecode:"0000"  msgresponse:"Inquiry", 
-Detail: Inquiry Response: responsecode:"0000"  msgresponse:"Inquiry"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Inquiry: response_code:"1111" msg_response:"Params INQ", 
+Detail: Send Inquiry: response_code:"1111" msg_response:"Params INQ"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Inquiry Response: responsecode:"0000"  msgresponse:"Inquiry", 
-Detail: Inquiry Response: responsecode:"0000"  msgresponse:"Inquiry"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Inquiry: response_code:"1111" msg_response:"Params INQ", 
+Detail: Send Inquiry: response_code:"1111" msg_response:"Params INQ"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Transaction Response: responsecode:"0000"  msgresponse:"Transaction", 
-Detail: Transaction Response: responsecode:"0000"  msgresponse:"Transaction"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Inquiry: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Inquiry: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Transaction Response: responsecode:"0000"  msgresponse:"Transaction", 
-Detail: Transaction Response: responsecode:"0000"  msgresponse:"Transaction"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Inquiry: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Inquiry: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Transaction Response: responsecode:"0000"  msgresponse:"Transaction", 
-Detail: Transaction Response: responsecode:"0000"  msgresponse:"Transaction"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Inquiry: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Inquiry: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Reversal Response: responsecode:"0000"  msgresponse:"Reversal", 
-Detail: Reversal Response: responsecode:"0000"  msgresponse:"Reversal"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Transaction: response_code:"1111" msg_response:"Params TRX", 
+Detail: Send Transaction: response_code:"1111" msg_response:"Params TRX"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Reversal Response: responsecode:"0000"  msgresponse:"Reversal", 
-Detail: Reversal Response: responsecode:"0000"  msgresponse:"Reversal"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Transaction: response_code:"1111" msg_response:"Params TRX", 
+Detail: Send Transaction: response_code:"1111" msg_response:"Params TRX"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Reversal Response: responsecode:"0000"  msgresponse:"Reversal", 
-Detail: Reversal Response: responsecode:"0000"  msgresponse:"Reversal"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Transaction: response_code:"1111" msg_response:"Params TRX", 
+Detail: Send Transaction: response_code:"1111" msg_response:"Params TRX"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Reversal Response: responsecode:"0000"  msgresponse:"Reversal", 
-Detail: Reversal Response: responsecode:"0000"  msgresponse:"Reversal"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Transaction: response_code:"1111" msg_response:"Params TRX", 
+Detail: Send Transaction: response_code:"1111" msg_response:"Params TRX"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Advice Response: responsecode:"0000"  msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000"  msgresponse:"Advice"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Advice Response: responsecode:"0000"  msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000"  msgresponse:"Advice"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Advice Response: responsecode:"0000"  msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000"  msgresponse:"Advice"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Advice Response: responsecode:"0000"  msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000"  msgresponse:"Advice"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
 
 
-2026-01-20 14:36:45	[INFO]:	LOG, 
-Advice Response: responsecode:"0000"  msgresponse:"Advice", 
-Detail: Advice Response: responsecode:"0000"  msgresponse:"Advice"
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Transaction: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Reversal: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:21:48	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused", 
+Detail: Error calling Advice: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+gRPC Client connected to :9090, 
+Detail: gRPC Client connected to :9090
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Inquiry: response_code:"1111" msg_response:"Params INQ", 
+Detail: Send Inquiry: response_code:"1111" msg_response:"Params INQ"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Inquiry: response_code:"1111" msg_response:"Params INQ", 
+Detail: Send Inquiry: response_code:"1111" msg_response:"Params INQ"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000" msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000" msg_response:"Inquiry"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000" msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000" msg_response:"Inquiry"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000" msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000" msg_response:"Inquiry"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Transaction: response_code:"1111" msg_response:"Params TRX", 
+Detail: Send Transaction: response_code:"1111" msg_response:"Params TRX"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Transaction: response_code:"1111" msg_response:"Params TRX", 
+Detail: Send Transaction: response_code:"1111" msg_response:"Params TRX"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Transaction: response_code:"1111" msg_response:"Params TRX", 
+Detail: Send Transaction: response_code:"1111" msg_response:"Params TRX"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Transaction: response_code:"1111" msg_response:"Params TRX", 
+Detail: Send Transaction: response_code:"1111" msg_response:"Params TRX"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Transaction Response: response_code:"0000" msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000" msg_response:"Transaction"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Transaction Response: response_code:"0000" msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000" msg_response:"Transaction"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Transaction Response: response_code:"0000" msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000" msg_response:"Transaction"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Transaction Response: response_code:"0000" msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000" msg_response:"Transaction"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Transaction Response: response_code:"0000" msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000" msg_response:"Transaction"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Reversal: response_code:"1111" msg_response:"Params Reversal", 
+Detail: Send Reversal: response_code:"1111" msg_response:"Params Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Reversal Response: response_code:"0000" msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000" msg_response:"Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Reversal Response: response_code:"0000" msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000" msg_response:"Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Reversal Response: response_code:"0000" msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000" msg_response:"Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Reversal Response: response_code:"0000" msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000" msg_response:"Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Reversal Response: response_code:"0000" msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000" msg_response:"Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Reversal Response: response_code:"0000" msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000" msg_response:"Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Reversal Response: response_code:"0000" msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000" msg_response:"Reversal"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Send Advice: response_code:"1111" msg_response:"Params Advice", 
+Detail: Send Advice: response_code:"1111" msg_response:"Params Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Advice Response: response_code:"0000" msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000" msg_response:"Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Advice Response: response_code:"0000" msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000" msg_response:"Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Advice Response: response_code:"0000" msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000" msg_response:"Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Advice Response: response_code:"0000" msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000" msg_response:"Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Advice Response: response_code:"0000" msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000" msg_response:"Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Advice Response: response_code:"0000" msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000" msg_response:"Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Advice Response: response_code:"0000" msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000" msg_response:"Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Advice Response: response_code:"0000" msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000" msg_response:"Advice"
+
+
+2026-01-20 15:22:07	[INFO]:	LOG, 
+Advice Response: response_code:"0000" msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000" msg_response:"Advice"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+gRPC Client connected to :9090, 
+Detail: gRPC Client connected to :9090
+
+
+2026-01-20 08:25:26	[INFO]:	Send Inquiry:  response_code:"1111"  msg_response:"Params INQ"
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000"  msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000"  msg_response:"Inquiry"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000"  msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000"  msg_response:"Inquiry"
+
+
+2026-01-20 08:25:26	[INFO]:	Send Transaction:  response_code:"1111"  msg_response:"Params TRX"
+2026-01-20 08:25:26	[INFO]:	Send Transaction:  response_code:"1111"  msg_response:"Params TRX"
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 08:25:26	[INFO]:	Send Reversal:  response_code:"1111"  msg_response:"Params Reversal"
+2026-01-20 08:25:26	[INFO]:	Send Reversal:  response_code:"1111"  msg_response:"Params Reversal"
+2026-01-20 08:25:26	[INFO]:	Send Reversal:  response_code:"1111"  msg_response:"Params Reversal"
+2026-01-20 08:25:26	[INFO]:	Send Advice:  response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 08:25:26	[INFO]:	Send Advice:  response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 08:25:26	[INFO]:	Send Advice:  response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 08:25:26	[INFO]:	Send Advice:  response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:25:26	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+gRPC Client connected to :9090, 
+Detail: gRPC Client connected to :9090
+
+
+2026-01-20 08:26:22	[LOG]:	Send Inquiry:  response_code:"1111"  msg_response:"Params INQ"
+2026-01-20 08:26:22	[LOG]:	Send Transaction:  response_code:"1111"  msg_response:"Params TRX"
+2026-01-20 08:26:22	[LOG]:	Send Transaction:  response_code:"1111"  msg_response:"Params TRX"
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000"  msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000"  msg_response:"Inquiry"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000"  msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000"  msg_response:"Inquiry"
+
+
+2026-01-20 08:26:22	[LOG]:	Send Reversal:  response_code:"1111"  msg_response:"Params Reversal"
+2026-01-20 08:26:22	[LOG]:	Send Reversal:  response_code:"1111"  msg_response:"Params Reversal"
+2026-01-20 08:26:22	[LOG]:	Send Reversal:  response_code:"1111"  msg_response:"Params Reversal"
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 08:26:22	[LOG]:	Send Advice:  response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 08:26:22	[LOG]:	Send Advice:  response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 08:26:22	[LOG]:	Send Advice:  response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 08:26:22	[LOG]:	Send Advice:  response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:26:22	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+gRPC Client connected to :9090, 
+Detail: gRPC Client connected to :9090
+
+
+2026-01-20 08:27:17	[LOG]:	Send Inquiry: 
+ response_code:"1111"  msg_response:"Params INQ"
+2026-01-20 08:27:17	[LOG]:	Send Transaction: 
+ response_code:"1111"  msg_response:"Params TRX"
+2026-01-20 08:27:17	[LOG]:	Send Transaction: 
+ response_code:"1111"  msg_response:"Params TRX"
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000"  msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000"  msg_response:"Inquiry"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000"  msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000"  msg_response:"Inquiry"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 08:27:17	[LOG]:	Send Reversal: 
+ response_code:"1111"  msg_response:"Params Reversal"
+2026-01-20 08:27:17	[LOG]:	Send Reversal: 
+ response_code:"1111"  msg_response:"Params Reversal"
+2026-01-20 08:27:17	[LOG]:	Send Reversal: 
+ response_code:"1111"  msg_response:"Params Reversal"
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 08:27:17	[LOG]:	Send Advice: 
+ response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 08:27:17	[LOG]:	Send Advice: 
+ response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 08:27:17	[LOG]:	Send Advice: 
+ response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 08:27:17	[LOG]:	Send Advice: 
+ response_code:"1111"  msg_response:"Params Advice"
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:27:17	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+gRPC Client connected to :9090, 
+Detail: gRPC Client connected to :9090
+
+
+2026-01-20 08:28:20	[LOG]:	Send Inquiry:
+ response_code:"1111"  msg_response:"Params INQ" 
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000"  msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000"  msg_response:"Inquiry"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Inquiry Response: response_code:"0000"  msg_response:"Inquiry", 
+Detail: Inquiry Response: response_code:"0000"  msg_response:"Inquiry"
+
+
+2026-01-20 08:28:20	[LOG]:	Send Transaction:
+ response_code:"1111"  msg_response:"Params TRX" 
+
+2026-01-20 08:28:20	[LOG]:	Send Transaction:
+ response_code:"1111"  msg_response:"Params TRX" 
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Transaction Response: response_code:"0000"  msg_response:"Transaction", 
+Detail: Transaction Response: response_code:"0000"  msg_response:"Transaction"
+
+
+2026-01-20 08:28:20	[LOG]:	Send Reversal:
+ response_code:"1111"  msg_response:"Params Reversal" 
+
+2026-01-20 08:28:20	[LOG]:	Send Reversal:
+ response_code:"1111"  msg_response:"Params Reversal" 
+
+2026-01-20 08:28:20	[LOG]:	Send Reversal:
+ response_code:"1111"  msg_response:"Params Reversal" 
+
+2026-01-20 08:28:20	[LOG]:	Send Advice:
+ response_code:"1111"  msg_response:"Params Advice" 
+
+2026-01-20 08:28:20	[LOG]:	Send Advice:
+ response_code:"1111"  msg_response:"Params Advice" 
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 08:28:20	[LOG]:	Send Advice:
+ response_code:"1111"  msg_response:"Params Advice" 
+
+2026-01-20 08:28:20	[LOG]:	Send Advice:
+ response_code:"1111"  msg_response:"Params Advice" 
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Reversal Response: response_code:"0000"  msg_response:"Reversal", 
+Detail: Reversal Response: response_code:"0000"  msg_response:"Reversal"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
+
+
+2026-01-20 15:28:20	[INFO]:	LOG, 
+Advice Response: response_code:"0000"  msg_response:"Advice", 
+Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
 
 
