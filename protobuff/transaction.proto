@@ -4,15 +4,16 @@ option go_package = "github.com/didirdt/proto_test/protobuff";
 
 package transaction;
 
-// TransactionService provides transaction processing operations.
+// TransactionService Untuk Request ke gRPC
+// docs : https://docs.google.com/document/d/1KzauFerZFTOZArXZe0c8E_640DglipYzp6rpBlMXKPg
 service TransactionService {
-  // Inquiry checks the status of a transaction.
+  // Pengecekan tagihan atau status rekening.
   rpc Inquiry(Message) returns (Message);
-  // Transaction processes a financial transaction.
+  // Pembayaran tagihan atau Pembelian (Pulsa, Token, dll) - Payment & Purchase
   rpc Transaction(Message) returns (Message);
-  // Reversal reverses a previously processed transaction.
+  // Pembatalan transaksi yang sudah terjadi.
   rpc Reversal(Message) returns (Message);
-  // Advice sends transaction advice to the server.
+  // Notifikasi pembayaran (susulan) atau pembelian (susulan) - Advice Payment & Advice Purchase
   rpc Advice(Message) returns (Message);
 }
 

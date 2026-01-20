@@ -29,15 +29,16 @@ const (
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 //
-// TransactionService provides transaction processing operations.
+// TransactionService Untuk Request ke gRPC
+// docs : https://docs.google.com/document/d/1KzauFerZFTOZArXZe0c8E_640DglipYzp6rpBlMXKPg
 type TransactionServiceClient interface {
-	// Inquiry checks the status of a transaction.
+	// Pengecekan tagihan atau status rekening.
 	Inquiry(ctx context.Context, in *Message, opts ...grpc.CallOption) (*Message, error)
-	// Transaction processes a financial transaction.
+	// Pembayaran tagihan atau Pembelian (Pulsa, Token, dll) - Payment & Purchase
 	Transaction(ctx context.Context, in *Message, opts ...grpc.CallOption) (*Message, error)
-	// Reversal reverses a previously processed transaction.
+	// Pembatalan transaksi yang sudah terjadi.
 	Reversal(ctx context.Context, in *Message, opts ...grpc.CallOption) (*Message, error)
-	// Advice sends transaction advice to the server.
+	// Notifikasi pembayaran (susulan) atau pembelian (susulan) - Advice Payment & Advice Purchase
 	Advice(ctx context.Context, in *Message, opts ...grpc.CallOption) (*Message, error)
 }
 
@@ -93,15 +94,16 @@ func (c *transactionServiceClient) Advice(ctx context.Context, in *Message, opts
 // All implementations must embed UnimplementedTransactionServiceServer
 // for forward compatibility.
 //
-// TransactionService provides transaction processing operations.
+// TransactionService Untuk Request ke gRPC
+// docs : https://docs.google.com/document/d/1KzauFerZFTOZArXZe0c8E_640DglipYzp6rpBlMXKPg
 type TransactionServiceServer interface {
-	// Inquiry checks the status of a transaction.
+	// Pengecekan tagihan atau status rekening.
 	Inquiry(context.Context, *Message) (*Message, error)
-	// Transaction processes a financial transaction.
+	// Pembayaran tagihan atau Pembelian (Pulsa, Token, dll) - Payment & Purchase
 	Transaction(context.Context, *Message) (*Message, error)
-	// Reversal reverses a previously processed transaction.
+	// Pembatalan transaksi yang sudah terjadi.
 	Reversal(context.Context, *Message) (*Message, error)
-	// Advice sends transaction advice to the server.
+	// Notifikasi pembayaran (susulan) atau pembelian (susulan) - Advice Payment & Advice Purchase
 	Advice(context.Context, *Message) (*Message, error)
 	mustEmbedUnimplementedTransactionServiceServer()
 }
