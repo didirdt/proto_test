@@ -17,29 +17,56 @@ service TransactionService {
 }
 
 message Message {
-	string processingcode = 1; // bit 003
-	string amount = 2; // bit 004
-	string markuptotal = 3; // bit 005
-	string profitex = 4; // bit 006
-	string transmissiontime = 5; // bit 007
-	string profitin = 6; // bit 008
-	string jumlahtagihan = 7; // bit 009
-	string stan = 8; // bit 011
-	string datetime = 9; // bit 012
-	string date = 10; // bit 013
-	string merchanttype = 11; // bit 018
-	string poscc = 12; // bit 026
-	string bankcode = 13; // bit 032
-	string noreference = 14; // bit 037
-	string responsecode = 15; // bit 039
-	string serviceres = 16; // bit 040
-	string phonenumber = 17; // bit 041
-	string deviceid = 18; // bit 042
-	string accountnumber = 19; // bit 043
-	string msg = 20; // bit 047
-	string msgresponse = 21; // bit 048
-	string pin = 22; // bit 061
-	string billercode = 23; // bit 100
-	string subscriberid = 24; // bit 103
-	string productcode = 25; // bit 104
+	// bit 003
+    string processingcode = 1;
+	// bit 004
+    string amount = 2;
+	// bit 005
+    string markuptotal = 3;
+	// bit 006
+    string profitex = 4;
+	// bit 007
+    string transmissiontime = 5;
+	// bit 008
+    string profitin = 6;
+	// bit 009
+    string jumlahtagihan = 7;
+	// bit 011
+    string stan = 8;
+	// bit 012
+    string datetime = 9;
+	// bit 013
+    string date = 10;
+	// bit 018
+    string merchanttype = 11;
+	// bit 026
+    string poscc = 12;
+	// bit 032
+    string bankcode = 13;
+	// bit 037
+    string noreference = 14;
+	// bit 039
+    string responsecode = 15;
+	// bit 040
+    string serviceres = 16;
+	// bit 041
+    string phonenumber = 17;
+	// bit 042
+    string deviceid = 18;
+	// bit 043
+    string accountnumber = 19;
+	// bit 047
+    string msg = 20;
+	// bit 048
+    string msgresponse = 21;
+	// bit 061
+    string pin = 22;
+	// bit 100
+    string billercode = 23;
+	// bit 103
+    string subscriberid = 24;
+	// bit 104
+    string productcode = 25;
+    string additional_1 = 26; 
+    string additional_2 = 27; 
 }
