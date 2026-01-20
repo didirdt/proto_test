@@ -39,44 +39,84 @@ func main() {
 	LogWrite("gRPC Client connected to :9090")
 	_ = client
 
-	msg := &pb.Message{
-		Responsecode: "1111",
-		Msgresponse:  "Send Message",
+	InqHandler(client)
+	TransactionHandler(client)
+	ReversalHandler(client)
+	AdviceHandler(client)
+}
+
+func InqHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error) {
+	msg = &pb.Message{
+		ResponseCode: "1111",
+		MsgResponse:  "Params INQ",
 	}
+
 	resInquiry, err := Inquiry(client, msg)
 	if err != nil {
 		LogWrite(fmt.Sprintf("Error calling Inquiry: %s", err))
+		return msg, err
 	}
 	LogWrite(fmt.Sprintf("Inquiry Response: %+v", resInquiry))
+	return resInquiry, nil
+}
+
+func TransactionHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error) {
+	msg = &pb.Message{
+		ResponseCode: "1111",
+		MsgResponse:  "Params TRX",
+	}
 
 	resTransaction, err := Transaction(client, msg)
 	if err != nil {
 		LogWrite(fmt.Sprintf("Error calling Transaction: %s", err))
+		return resTransaction, err
 	}
 	LogWrite(fmt.Sprintf("Transaction Response: %+v", resTransaction))
+	return resTransaction, nil
+}
+
+func ReversalHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error) {
+	msg = &pb.Message{
+		ResponseCode: "1111",
+		MsgResponse:  "Params Reversal",
+	}
 
 	resReversal, err := Reversal(client, msg)
 	if err != nil {
 		LogWrite(fmt.Sprintf("Error calling Reversal: %s", err))
+		return msg, err
 	}
 	LogWrite(fmt.Sprintf("Reversal Response: %+v", resReversal))
+	return resReversal, nil
+}
+
+func AdviceHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error) {
+	msg = &pb.Message{
+		ResponseCode: "1111",
+		MsgResponse:  "Params Advice",
+	}
 
 	resAdvice, err := Advice(client, msg)
 	if err != nil {
 		LogWrite(fmt.Sprintf("Error calling Advice: %s", err))
+		return msg, err
 	}
 	LogWrite(fmt.Sprintf("Advice Response: %+v", resAdvice))
+	return resAdvice, nil
 }
 
 func Inquiry(client pb.TransactionServiceClient, msg *pb.Message) (*pb.Message, error) {
 	return client.Inquiry(context.Background(), msg)
 }
+
 func Transaction(client pb.TransactionServiceClient, msg *pb.Message) (*pb.Message, error) {
 	return client.Transaction(context.Background(), msg)
 }
+
 func Reversal(client pb.TransactionServiceClient, msg *pb.Message) (*pb.Message, error) {
 	return client.Reversal(context.Background(), msg)
 }
+
 func Advice(client pb.TransactionServiceClient, msg *pb.Message) (*pb.Message, error) {
 	return client.Advice(context.Background(), msg)
 }

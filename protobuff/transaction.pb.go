@@ -22,34 +22,59 @@ const (
 )
 
 type Message struct {
-	state            protoimpl.MessageState `protogen:"open.v1"`
-	Processingcode   string                 `protobuf:"bytes,1,opt,name=processingcode,proto3" json:"processingcode,omitempty"`     // bit 003
-	Amount           string                 `protobuf:"bytes,2,opt,name=amount,proto3" json:"amount,omitempty"`                     // bit 004
-	Markuptotal      string                 `protobuf:"bytes,3,opt,name=markuptotal,proto3" json:"markuptotal,omitempty"`           // bit 005
-	Profitex         string                 `protobuf:"bytes,4,opt,name=profitex,proto3" json:"profitex,omitempty"`                 // bit 006
-	Transmissiontime string                 `protobuf:"bytes,5,opt,name=transmissiontime,proto3" json:"transmissiontime,omitempty"` // bit 007
-	Profitin         string                 `protobuf:"bytes,6,opt,name=profitin,proto3" json:"profitin,omitempty"`                 // bit 008
-	Jumlahtagihan    string                 `protobuf:"bytes,7,opt,name=jumlahtagihan,proto3" json:"jumlahtagihan,omitempty"`       // bit 009
-	Stan             string                 `protobuf:"bytes,8,opt,name=stan,proto3" json:"stan,omitempty"`                         // bit 011
-	Datetime         string                 `protobuf:"bytes,9,opt,name=datetime,proto3" json:"datetime,omitempty"`                 // bit 012
-	Date             string                 `protobuf:"bytes,10,opt,name=date,proto3" json:"date,omitempty"`                        // bit 013
-	Merchanttype     string                 `protobuf:"bytes,11,opt,name=merchanttype,proto3" json:"merchanttype,omitempty"`        // bit 018
-	Poscc            string                 `protobuf:"bytes,12,opt,name=poscc,proto3" json:"poscc,omitempty"`                      // bit 026
-	Bankcode         string                 `protobuf:"bytes,13,opt,name=bankcode,proto3" json:"bankcode,omitempty"`                // bit 032
-	Noreference      string                 `protobuf:"bytes,14,opt,name=noreference,proto3" json:"noreference,omitempty"`          // bit 037
-	Responsecode     string                 `protobuf:"bytes,15,opt,name=responsecode,proto3" json:"responsecode,omitempty"`        // bit 039
-	Serviceres       string                 `protobuf:"bytes,16,opt,name=serviceres,proto3" json:"serviceres,omitempty"`            // bit 040
-	Phonenumber      string                 `protobuf:"bytes,17,opt,name=phonenumber,proto3" json:"phonenumber,omitempty"`          // bit 041
-	Deviceid         string                 `protobuf:"bytes,18,opt,name=deviceid,proto3" json:"deviceid,omitempty"`                // bit 042
-	Accountnumber    string                 `protobuf:"bytes,19,opt,name=accountnumber,proto3" json:"accountnumber,omitempty"`      // bit 043
-	Msg              string                 `protobuf:"bytes,20,opt,name=msg,proto3" json:"msg,omitempty"`                          // bit 047
-	Msgresponse      string                 `protobuf:"bytes,21,opt,name=msgresponse,proto3" json:"msgresponse,omitempty"`          // bit 048
-	Pin              string                 `protobuf:"bytes,22,opt,name=pin,proto3" json:"pin,omitempty"`                          // bit 061
-	Billercode       string                 `protobuf:"bytes,23,opt,name=billercode,proto3" json:"billercode,omitempty"`            // bit 100
-	Subscriberid     string                 `protobuf:"bytes,24,opt,name=subscriberid,proto3" json:"subscriberid,omitempty"`        // bit 103
-	Productcode      string                 `protobuf:"bytes,25,opt,name=productcode,proto3" json:"productcode,omitempty"`          // bit 104
-	unknownFields    protoimpl.UnknownFields
-	sizeCache        protoimpl.SizeCache
+	state protoimpl.MessageState `protogen:"open.v1"`
+	// bit 003
+	ProcessingCode string `protobuf:"bytes,1,opt,name=processing_code,json=processingCode,proto3" json:"processing_code,omitempty"`
+	// bit 004
+	Amount string `protobuf:"bytes,2,opt,name=amount,proto3" json:"amount,omitempty"`
+	// bit 005
+	MarkupTotal string `protobuf:"bytes,3,opt,name=markup_total,json=markupTotal,proto3" json:"markup_total,omitempty"`
+	// bit 006
+	ProfitEx string `protobuf:"bytes,4,opt,name=profit_ex,json=profitEx,proto3" json:"profit_ex,omitempty"`
+	// bit 007
+	BiayaLayanan string `protobuf:"bytes,5,opt,name=biaya_layanan,json=biayaLayanan,proto3" json:"biaya_layanan,omitempty"`
+	// bit 008
+	ProfitIn string `protobuf:"bytes,6,opt,name=profit_in,json=profitIn,proto3" json:"profit_in,omitempty"`
+	// bit 009
+	JumlahTagihan string `protobuf:"bytes,7,opt,name=jumlah_tagihan,json=jumlahTagihan,proto3" json:"jumlah_tagihan,omitempty"`
+	// bit 011
+	Stan string `protobuf:"bytes,8,opt,name=stan,proto3" json:"stan,omitempty"`
+	// bit 012
+	Datetime string `protobuf:"bytes,9,opt,name=datetime,proto3" json:"datetime,omitempty"`
+	// bit 013
+	PartnerRef string `protobuf:"bytes,10,opt,name=partner_ref,json=partnerRef,proto3" json:"partner_ref,omitempty"`
+	// bit 018
+	MerchantType string `protobuf:"bytes,11,opt,name=merchant_type,json=merchantType,proto3" json:"merchant_type,omitempty"`
+	// bit 026
+	Additional_1 string `protobuf:"bytes,12,opt,name=additional_1,json=additional1,proto3" json:"additional_1,omitempty"`
+	// bit 032
+	BankCode string `protobuf:"bytes,13,opt,name=bank_code,json=bankCode,proto3" json:"bank_code,omitempty"`
+	// bit 037
+	Additional_2 string `protobuf:"bytes,14,opt,name=additional_2,json=additional2,proto3" json:"additional_2,omitempty"`
+	// bit 039
+	ResponseCode string `protobuf:"bytes,15,opt,name=response_code,json=responseCode,proto3" json:"response_code,omitempty"`
+	// bit 040
+	Additional_3 string `protobuf:"bytes,16,opt,name=additional_3,json=additional3,proto3" json:"additional_3,omitempty"`
+	// bit 041
+	PhoneNumber string `protobuf:"bytes,17,opt,name=phone_number,json=phoneNumber,proto3" json:"phone_number,omitempty"`
+	// bit 042
+	DeviceId string `protobuf:"bytes,18,opt,name=device_id,json=deviceId,proto3" json:"device_id,omitempty"`
+	// bit 043
+	AccountNumber string `protobuf:"bytes,19,opt,name=account_number,json=accountNumber,proto3" json:"account_number,omitempty"`
+	// bit 047
+	Msg string `protobuf:"bytes,20,opt,name=msg,proto3" json:"msg,omitempty"`
+	// bit 048
+	MsgResponse string `protobuf:"bytes,21,opt,name=msg_response,json=msgResponse,proto3" json:"msg_response,omitempty"`
+	// bit 061
+	Pin string `protobuf:"bytes,22,opt,name=pin,proto3" json:"pin,omitempty"`
+	// bit 100
+	BillerCode string `protobuf:"bytes,23,opt,name=biller_code,json=billerCode,proto3" json:"biller_code,omitempty"`
+	// bit 103
+	SubscriberId string `protobuf:"bytes,24,opt,name=subscriber_id,json=subscriberId,proto3" json:"subscriber_id,omitempty"`
+	// bit 104
+	ProductCode   string `protobuf:"bytes,25,opt,name=product_code,json=productCode,proto3" json:"product_code,omitempty"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
 }
 
 func (x *Message) Reset() {
@@ -82,9 +107,9 @@ func (*Message) Descriptor() ([]byte, []int) {
 	return file_protobuff_transaction_proto_rawDescGZIP(), []int{0}
 }
 
-func (x *Message) GetProcessingcode() string {
+func (x *Message) GetProcessingCode() string {
 	if x != nil {
-		return x.Processingcode
+		return x.ProcessingCode
 	}
 	return ""
 }
@@ -96,37 +121,37 @@ func (x *Message) GetAmount() string {
 	return ""
 }
 
-func (x *Message) GetMarkuptotal() string {
+func (x *Message) GetMarkupTotal() string {
 	if x != nil {
-		return x.Markuptotal
+		return x.MarkupTotal
 	}
 	return ""
 }
 
-func (x *Message) GetProfitex() string {
+func (x *Message) GetProfitEx() string {
 	if x != nil {
-		return x.Profitex
+		return x.ProfitEx
 	}
 	return ""
 }
 
-func (x *Message) GetTransmissiontime() string {
+func (x *Message) GetBiayaLayanan() string {
 	if x != nil {
-		return x.Transmissiontime
+		return x.BiayaLayanan
 	}
 	return ""
 }
 
-func (x *Message) GetProfitin() string {
+func (x *Message) GetProfitIn() string {
 	if x != nil {
-		return x.Profitin
+		return x.ProfitIn
 	}
 	return ""
 }
 
-func (x *Message) GetJumlahtagihan() string {
+func (x *Message) GetJumlahTagihan() string {
 	if x != nil {
-		return x.Jumlahtagihan
+		return x.JumlahTagihan
 	}
 	return ""
 }
@@ -145,72 +170,72 @@ func (x *Message) GetDatetime() string {
 	return ""
 }
 
-func (x *Message) GetDate() string {
+func (x *Message) GetPartnerRef() string {
 	if x != nil {
-		return x.Date
+		return x.PartnerRef
 	}
 	return ""
 }
 
-func (x *Message) GetMerchanttype() string {
+func (x *Message) GetMerchantType() string {
 	if x != nil {
-		return x.Merchanttype
+		return x.MerchantType
 	}
 	return ""
 }
 
-func (x *Message) GetPoscc() string {
+func (x *Message) GetAdditional_1() string {
 	if x != nil {
-		return x.Poscc
+		return x.Additional_1
 	}
 	return ""
 }
 
-func (x *Message) GetBankcode() string {
+func (x *Message) GetBankCode() string {
 	if x != nil {
-		return x.Bankcode
+		return x.BankCode
 	}
 	return ""
 }
 
-func (x *Message) GetNoreference() string {
+func (x *Message) GetAdditional_2() string {
 	if x != nil {
-		return x.Noreference
+		return x.Additional_2
 	}
 	return ""
 }
 
-func (x *Message) GetResponsecode() string {
+func (x *Message) GetResponseCode() string {
 	if x != nil {
-		return x.Responsecode
+		return x.ResponseCode
 	}
 	return ""
 }
 
-func (x *Message) GetServiceres() string {
+func (x *Message) GetAdditional_3() string {
 	if x != nil {
-		return x.Serviceres
+		return x.Additional_3
 	}
 	return ""
 }
 
-func (x *Message) GetPhonenumber() string {
+func (x *Message) GetPhoneNumber() string {
 	if x != nil {
-		return x.Phonenumber
+		return x.PhoneNumber
 	}
 	return ""
 }
 
-func (x *Message) GetDeviceid() string {
+func (x *Message) GetDeviceId() string {
 	if x != nil {
-		return x.Deviceid
+		return x.DeviceId
 	}
 	return ""
 }
 
-func (x *Message) GetAccountnumber() string {
+func (x *Message) GetAccountNumber() string {
 	if x != nil {
-		return x.Accountnumber
+		return x.AccountNumber
 	}
 	return ""
 }
@@ -222,9 +247,9 @@ func (x *Message) GetMsg() string {
 	return ""
 }
 
-func (x *Message) GetMsgresponse() string {
+func (x *Message) GetMsgResponse() string {
 	if x != nil {
-		return x.Msgresponse
+		return x.MsgResponse
 	}
 	return ""
 }
@@ -236,23 +261,23 @@ func (x *Message) GetPin() string {
 	return ""
 }
 
-func (x *Message) GetBillercode() string {
+func (x *Message) GetBillerCode() string {
 	if x != nil {
-		return x.Billercode
+		return x.BillerCode
 	}
 	return ""
 }
 
-func (x *Message) GetSubscriberid() string {
+func (x *Message) GetSubscriberId() string {
 	if x != nil {
-		return x.Subscriberid
+		return x.SubscriberId
 	}
 	return ""
 }
 
-func (x *Message) GetProductcode() string {
+func (x *Message) GetProductCode() string {
 	if x != nil {
-		return x.Productcode
+		return x.ProductCode
 	}
 	return ""
 }
@@ -261,38 +286,36 @@ var File_protobuff_transaction_proto protoreflect.FileDescriptor
 
 const file_protobuff_transaction_proto_rawDesc = "" +
 	"\n" +
-	"\x1bprotobuff/transaction.proto\x12\vtransaction\"\x85\x06\n" +
-	"\aMessage\x12&\n" +
-	"\x0eprocessingcode\x18\x01 \x01(\tR\x0eprocessingcode\x12\x16\n" +
-	"\x06amount\x18\x02 \x01(\tR\x06amount\x12 \n" +
-	"\vmarkuptotal\x18\x03 \x01(\tR\vmarkuptotal\x12\x1a\n" +
-	"\bprofitex\x18\x04 \x01(\tR\bprofitex\x12*\n" +
-	"\x10transmissiontime\x18\x05 \x01(\tR\x10transmissiontime\x12\x1a\n" +
-	"\bprofitin\x18\x06 \x01(\tR\bprofitin\x12$\n" +
-	"\rjumlahtagihan\x18\a \x01(\tR\rjumlahtagihan\x12\x12\n" +
+	"\x1bprotobuff/transaction.proto\x12\vtransaction\"\xab\x06\n" +
+	"\aMessage\x12'\n" +
+	"\x0fprocessing_code\x18\x01 \x01(\tR\x0eprocessingCode\x12\x16\n" +
+	"\x06amount\x18\x02 \x01(\tR\x06amount\x12!\n" +
+	"\fmarkup_total\x18\x03 \x01(\tR\vmarkupTotal\x12\x1b\n" +
+	"\tprofit_ex\x18\x04 \x01(\tR\bprofitEx\x12#\n" +
+	"\rbiaya_layanan\x18\x05 \x01(\tR\fbiayaLayanan\x12\x1b\n" +
+	"\tprofit_in\x18\x06 \x01(\tR\bprofitIn\x12%\n" +
+	"\x0ejumlah_tagihan\x18\a \x01(\tR\rjumlahTagihan\x12\x12\n" +
 	"\x04stan\x18\b \x01(\tR\x04stan\x12\x1a\n" +
-	"\bdatetime\x18\t \x01(\tR\bdatetime\x12\x12\n" +
-	"\x04date\x18\n" +
-	" \x01(\tR\x04date\x12\"\n" +
-	"\fmerchanttype\x18\v \x01(\tR\fmerchanttype\x12\x14\n" +
-	"\x05poscc\x18\f \x01(\tR\x05poscc\x12\x1a\n" +
-	"\bbankcode\x18\r \x01(\tR\bbankcode\x12 \n" +
-	"\vnoreference\x18\x0e \x01(\tR\vnoreference\x12\"\n" +
-	"\fresponsecode\x18\x0f \x01(\tR\fresponsecode\x12\x1e\n" +
-	"\n" +
-	"serviceres\x18\x10 \x01(\tR\n" +
-	"serviceres\x12 \n" +
-	"\vphonenumber\x18\x11 \x01(\tR\vphonenumber\x12\x1a\n" +
-	"\bdeviceid\x18\x12 \x01(\tR\bdeviceid\x12$\n" +
-	"\raccountnumber\x18\x13 \x01(\tR\raccountnumber\x12\x10\n" +
-	"\x03msg\x18\x14 \x01(\tR\x03msg\x12 \n" +
-	"\vmsgresponse\x18\x15 \x01(\tR\vmsgresponse\x12\x10\n" +
-	"\x03pin\x18\x16 \x01(\tR\x03pin\x12\x1e\n" +
-	"\n" +
-	"billercode\x18\x17 \x01(\tR\n" +
-	"billercode\x12\"\n" +
-	"\fsubscriberid\x18\x18 \x01(\tR\fsubscriberid\x12 \n" +
-	"\vproductcode\x18\x19 \x01(\tR\vproductcode2\xf4\x01\n" +
+	"\bdatetime\x18\t \x01(\tR\bdatetime\x12\x1f\n" +
+	"\vpartner_ref\x18\n" +
+	" \x01(\tR\n" +
+	"partnerRef\x12#\n" +
+	"\rmerchant_type\x18\v \x01(\tR\fmerchantType\x12!\n" +
+	"\fadditional_1\x18\f \x01(\tR\vadditional1\x12\x1b\n" +
+	"\tbank_code\x18\r \x01(\tR\bbankCode\x12!\n" +
+	"\fadditional_2\x18\x0e \x01(\tR\vadditional2\x12#\n" +
+	"\rresponse_code\x18\x0f \x01(\tR\fresponseCode\x12!\n" +
+	"\fadditional_3\x18\x10 \x01(\tR\vadditional3\x12!\n" +
+	"\fphone_number\x18\x11 \x01(\tR\vphoneNumber\x12\x1b\n" +
+	"\tdevice_id\x18\x12 \x01(\tR\bdeviceId\x12%\n" +
+	"\x0eaccount_number\x18\x13 \x01(\tR\raccountNumber\x12\x10\n" +
+	"\x03msg\x18\x14 \x01(\tR\x03msg\x12!\n" +
+	"\fmsg_response\x18\x15 \x01(\tR\vmsgResponse\x12\x10\n" +
+	"\x03pin\x18\x16 \x01(\tR\x03pin\x12\x1f\n" +
+	"\vbiller_code\x18\x17 \x01(\tR\n" +
+	"billerCode\x12#\n" +
+	"\rsubscriber_id\x18\x18 \x01(\tR\fsubscriberId\x12!\n" +
+	"\fproduct_code\x18\x19 \x01(\tR\vproductCode2\xf4\x01\n" +
 	"\x12TransactionService\x125\n" +
 	"\aInquiry\x12\x14.transaction.Message\x1a\x14.transaction.Message\x129\n" +
 	"\vTransaction\x12\x14.transaction.Message\x1a\x14.transaction.Message\x126\n" +

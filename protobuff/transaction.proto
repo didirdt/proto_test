@@ -18,55 +18,53 @@ service TransactionService {
 
 message Message {
 	// bit 003
-    string processingcode = 1;
+    string processing_code = 1;
 	// bit 004
     string amount = 2;
 	// bit 005
-    string markuptotal = 3;
+    string markup_total = 3;
 	// bit 006
-    string profitex = 4;
+    string profit_ex = 4;
 	// bit 007
-    string transmissiontime = 5;
+    string biaya_layanan = 5;
 	// bit 008
-    string profitin = 6;
+    string profit_in = 6;
 	// bit 009
-    string jumlahtagihan = 7;
+    string jumlah_tagihan = 7;
 	// bit 011
     string stan = 8;
 	// bit 012
     string datetime = 9;
 	// bit 013
-    string date = 10;
+    string partner_ref = 10;
 	// bit 018
-    string merchanttype = 11;
+    string merchant_type = 11;
 	// bit 026
-    string poscc = 12;
+    string additional_1 = 12;
 	// bit 032
-    string bankcode = 13;
+    string bank_code = 13;
 	// bit 037
-    string noreference = 14;
+    string additional_2 = 14;
 	// bit 039
-    string responsecode = 15;
+    string response_code = 15;
 	// bit 040
-    string serviceres = 16;
+    string additional_3 = 16;
 	// bit 041
-    string phonenumber = 17;
+    string phone_number = 17;
 	// bit 042
-    string deviceid = 18;
+    string device_id = 18;
 	// bit 043
-    string accountnumber = 19;
+    string account_number = 19;
 	// bit 047
     string msg = 20;
 	// bit 048
-    string msgresponse = 21;
+    string msg_response = 21;
 	// bit 061
     string pin = 22;
 	// bit 100
-    string billercode = 23;
+    string biller_code = 23;
 	// bit 103
-    string subscriberid = 24;
+    string subscriber_id = 24;
 	// bit 104
-    string productcode = 25;
-    string additional_1 = 26; 
-    string additional_2 = 27; 
+    string product_code = 25;
 }
