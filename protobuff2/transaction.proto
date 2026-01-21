@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option go_package = "github.com/didirdt/proto_test/pr2";
 
-package tr1;
+package transaction;
 
 // TransactionService Untuk Request ke gRPC
 // docs : https://docs.google.com/document/d/1KzauFerZFTOZArXZe0c8E_640DglipYzp6rpBlMXKPg

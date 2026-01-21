@@ -73,3 +73,8 @@ received Advice: response_code:"1111" msg_response:"Params Advice",
 Detail:received Advice: response_code:"1111" msg_response:"Params Advice"
 
 
+2026-01-21 12:27:49	[INFO]:	LOG, 
+gRPC Server is running on port : 9090, 
+Detail:gRPC Server is running on port : 9090
+
+

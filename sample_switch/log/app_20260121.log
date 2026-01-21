@@ -103,3 +103,108 @@ Advice Response: response_code:"0000"  msg_response:"Advice",
 Detail: Advice Response: response_code:"0000"  msg_response:"Advice"
 
 
+2026-01-21 12:27:55	[INFO]:	LOG, 
+gRPC Client connected to :9090, 
+Detail: gRPC Client connected to :9090
+
+
+2026-01-21 05:27:55	[LOG]:	Send Inquiry:
+ response_code:"1111" msg_response:"Params INQ" 
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Inquiry: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Inquiry: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Inquiry: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Inquiry: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 05:27:55	[LOG]:	Send Transaction:
+ response_code:"1111" msg_response:"Params TRX" 
+
+2026-01-21 05:27:55	[LOG]:	Send Transaction:
+ response_code:"1111" msg_response:"Params TRX" 
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Transaction: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Transaction: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Transaction: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Transaction: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 05:27:55	[LOG]:	Send Reversal:
+ response_code:"1111" msg_response:"Params Reversal" 
+
+2026-01-21 05:27:55	[LOG]:	Send Reversal:
+ response_code:"1111" msg_response:"Params Reversal" 
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Transaction: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Transaction: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 05:27:55	[LOG]:	Send Reversal:
+ response_code:"1111" msg_response:"Params Reversal" 
+
+2026-01-21 05:27:55	[LOG]:	Send Advice:
+ response_code:"1111" msg_response:"Params Advice" 
+
+2026-01-21 05:27:55	[LOG]:	Send Advice:
+ response_code:"1111" msg_response:"Params Advice" 
+
+2026-01-21 05:27:55	[LOG]:	Send Advice:
+ response_code:"1111" msg_response:"Params Advice" 
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Reversal: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 05:27:55	[LOG]:	Send Advice:
+ response_code:"1111" msg_response:"Params Advice" 
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Reversal: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Reversal: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Reversal: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Reversal: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+
+2026-01-21 12:27:55	[INFO]:	LOG, 
+Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService, 
+Detail: Error calling Advice: rpc error: code = Unimplemented desc = unknown service tr1.TransactionService
+
+

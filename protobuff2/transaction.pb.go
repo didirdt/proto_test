@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.36.10
 // 	protoc        v6.33.0
-// source: pr2/tr1.proto
+// source: protobuff2/transaction.proto
 
 package pr2
 
@@ -82,7 +82,7 @@ type Message struct {
 
 func (x *Message) Reset() {
 	*x = Message{}
-	mi := &file_pr2_tr1_proto_msgTypes[0]
+	mi := &file_protobuff2_transaction_proto_msgTypes[0]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -94,7 +94,7 @@ func (x *Message) String() string {
 func (*Message) ProtoMessage() {}
 
 func (x *Message) ProtoReflect() protoreflect.Message {
-	mi := &file_pr2_tr1_proto_msgTypes[0]
+	mi := &file_protobuff2_transaction_proto_msgTypes[0]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -107,7 +107,7 @@ func (x *Message) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Message.ProtoReflect.Descriptor instead.
 func (*Message) Descriptor() ([]byte, []int) {
-	return file_pr2_tr1_proto_rawDescGZIP(), []int{0}
+	return file_protobuff2_transaction_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *Message) GetProcessingCode() string {
@@ -299,11 +299,11 @@ func (x *Message) GetNewParams_2() string {
 	return ""
 }
 
-var File_pr2_tr1_proto protoreflect.FileDescriptor
+var File_protobuff2_transaction_proto protoreflect.FileDescriptor
 
-const file_pr2_tr1_proto_rawDesc = "" +
+const file_protobuff2_transaction_proto_rawDesc = "" +
 	"\n" +
-	"\rpr2/tr1.proto\x12\x03tr1\"\xec\x06\n" +
+	"\x1cprotobuff2/transaction.proto\x12\vtransaction\"\xec\x06\n" +
 	"\aMessage\x12'\n" +
 	"\x0fprocessing_code\x18\x01 \x01(\tR\x0eprocessingCode\x12\x16\n" +
 	"\x06amount\x18\x02 \x01(\tR\x06amount\x12!\n" +
@@ -336,38 +336,38 @@ const file_pr2_tr1_proto_rawDesc = "" +
 	"\n" +
 	"new_params\x18\x1a \x01(\tR\tnewParams\x12 \n" +
 	"\fnew_params_2\x18\x1b \x01(\tR\n" +
-	"newParams22\xb4\x01\n" +
-	"\x12TransactionService\x12%\n" +
-	"\aInquiry\x12\f.tr1.Message\x1a\f.tr1.Message\x12)\n" +
-	"\vTransaction\x12\f.tr1.Message\x1a\f.tr1.Message\x12&\n" +
-	"\bReversal\x12\f.tr1.Message\x1a\f.tr1.Message\x12$\n" +
-	"\x06Advice\x12\f.tr1.Message\x1a\f.tr1.MessageB#Z!github.com/didirdt/proto_test/pr2b\x06proto3"
+	"newParams22\xf4\x01\n" +
+	"\x12TransactionService\x125\n" +
+	"\aInquiry\x12\x14.transaction.Message\x1a\x14.transaction.Message\x129\n" +
+	"\vTransaction\x12\x14.transaction.Message\x1a\x14.transaction.Message\x126\n" +
+	"\bReversal\x12\x14.transaction.Message\x1a\x14.transaction.Message\x124\n" +
+	"\x06Advice\x12\x14.transaction.Message\x1a\x14.transaction.MessageB#Z!github.com/didirdt/proto_test/pr2b\x06proto3"
 
 var (
-	file_pr2_tr1_proto_rawDescOnce sync.Once
-	file_pr2_tr1_proto_rawDescData []byte
+	file_protobuff2_transaction_proto_rawDescOnce sync.Once
+	file_protobuff2_transaction_proto_rawDescData []byte
 )
 
-func file_pr2_tr1_proto_rawDescGZIP() []byte {
-	file_pr2_tr1_proto_rawDescOnce.Do(func() {
-		file_pr2_tr1_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_pr2_tr1_proto_rawDesc), len(file_pr2_tr1_proto_rawDesc)))
+func file_protobuff2_transaction_proto_rawDescGZIP() []byte {
+	file_protobuff2_transaction_proto_rawDescOnce.Do(func() {
+		file_protobuff2_transaction_proto_rawDescData = protoimpl.X.CompressGZIP(unsafe.Slice(unsafe.StringData(file_protobuff2_transaction_proto_rawDesc), len(file_protobuff2_transaction_proto_rawDesc)))
 	})
-	return file_pr2_tr1_proto_rawDescData
+	return file_protobuff2_transaction_proto_rawDescData
 }
 
-var file_pr2_tr1_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
-var file_pr2_tr1_proto_goTypes = []any{
-	(*Message)(nil), // 0: tr1.Message
+var file_protobuff2_transaction_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
+var file_protobuff2_transaction_proto_goTypes = []any{
+	(*Message)(nil), // 0: transaction.Message
 }
-var file_pr2_tr1_proto_depIdxs = []int32{
-	0, // 0: tr1.TransactionService.Inquiry:input_type -> tr1.Message
-	0, // 1: tr1.TransactionService.Transaction:input_type -> tr1.Message
-	0, // 2: tr1.TransactionService.Reversal:input_type -> tr1.Message
-	0, // 3: tr1.TransactionService.Advice:input_type -> tr1.Message
-	0, // 4: tr1.TransactionService.Inquiry:output_type -> tr1.Message
-	0, // 5: tr1.TransactionService.Transaction:output_type -> tr1.Message
-	0, // 6: tr1.TransactionService.Reversal:output_type -> tr1.Message
-	0, // 7: tr1.TransactionService.Advice:output_type -> tr1.Message
+var file_protobuff2_transaction_proto_depIdxs = []int32{
+	0, // 0: transaction.TransactionService.Inquiry:input_type -> transaction.Message
+	0, // 1: transaction.TransactionService.Transaction:input_type -> transaction.Message
+	0, // 2: transaction.TransactionService.Reversal:input_type -> transaction.Message
+	0, // 3: transaction.TransactionService.Advice:input_type -> transaction.Message
+	0, // 4: transaction.TransactionService.Inquiry:output_type -> transaction.Message
+	0, // 5: transaction.TransactionService.Transaction:output_type -> transaction.Message
+	0, // 6: transaction.TransactionService.Reversal:output_type -> transaction.Message
+	0, // 7: transaction.TransactionService.Advice:output_type -> transaction.Message
 	4, // [4:8] is the sub-list for method output_type
 	0, // [0:4] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
@@ -375,26 +375,26 @@ var file_pr2_tr1_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for field type_name
 }
 
-func init() { file_pr2_tr1_proto_init() }
-func file_pr2_tr1_proto_init() {
-	if File_pr2_tr1_proto != nil {
+func init() { file_protobuff2_transaction_proto_init() }
+func file_protobuff2_transaction_proto_init() {
+	if File_protobuff2_transaction_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: unsafe.Slice(unsafe.StringData(file_pr2_tr1_proto_rawDesc), len(file_pr2_tr1_proto_rawDesc)),
+			RawDescriptor: unsafe.Slice(unsafe.StringData(file_protobuff2_transaction_proto_rawDesc), len(file_protobuff2_transaction_proto_rawDesc)),
 			NumEnums:      0,
 			NumMessages:   1,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_pr2_tr1_proto_goTypes,
-		DependencyIndexes: file_pr2_tr1_proto_depIdxs,
-		MessageInfos:      file_pr2_tr1_proto_msgTypes,
+		GoTypes:           file_protobuff2_transaction_proto_goTypes,
+		DependencyIndexes: file_protobuff2_transaction_proto_depIdxs,
+		MessageInfos:      file_protobuff2_transaction_proto_msgTypes,
 	}.Build()
-	File_pr2_tr1_proto = out.File
-	file_pr2_tr1_proto_goTypes = nil
-	file_pr2_tr1_proto_depIdxs = nil
+	File_protobuff2_transaction_proto = out.File
+	file_protobuff2_transaction_proto_goTypes = nil
+	file_protobuff2_transaction_proto_depIdxs = nil
 }

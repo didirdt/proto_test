@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.5.1
 // - protoc             v6.33.0
-// source: pr2/tr1.proto
+// source: protobuff2/transaction.proto
 
 package pr2
 
@@ -19,10 +19,10 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	TransactionService_Inquiry_FullMethodName     = "/tr1.TransactionService/Inquiry"
-	TransactionService_Transaction_FullMethodName = "/tr1.TransactionService/Transaction"
-	TransactionService_Reversal_FullMethodName    = "/tr1.TransactionService/Reversal"
-	TransactionService_Advice_FullMethodName      = "/tr1.TransactionService/Advice"
+	TransactionService_Inquiry_FullMethodName     = "/transaction.TransactionService/Inquiry"
+	TransactionService_Transaction_FullMethodName = "/transaction.TransactionService/Transaction"
+	TransactionService_Reversal_FullMethodName    = "/transaction.TransactionService/Reversal"
+	TransactionService_Advice_FullMethodName      = "/transaction.TransactionService/Advice"
 )
 
 // TransactionServiceClient is the client API for TransactionService service.
@@ -224,7 +224,7 @@ func _TransactionService_Advice_Handler(srv interface{}, ctx context.Context, de
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var TransactionService_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "tr1.TransactionService",
+	ServiceName: "transaction.TransactionService",
 	HandlerType: (*TransactionServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
@@ -245,5 +245,5 @@ var TransactionService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "pr2/tr1.proto",
+	Metadata: "protobuff2/transaction.proto",
 }
