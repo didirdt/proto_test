@@ -17,6 +17,7 @@ service TransactionService {
   rpc Advice(Message) returns (Message);
 }
 
+// Data Message for request and response biller/switch
 message Message {
 	// bit 003
     string processing_code = 1;
