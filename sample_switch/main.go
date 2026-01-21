@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	pb "github.com/didirdt/proto_test/protobuff"
+	pb "github.com/didirdt/proto_test/pr2"
 	"github.com/randyardiansyah25/glg"
 	"github.com/randyardiansyah25/gostashlg"
 	"google.golang.org/grpc"
