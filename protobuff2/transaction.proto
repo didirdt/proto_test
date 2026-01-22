@@ -20,7 +20,7 @@ service TransactionService {
 // Data Message for request and response biller/switch
 message Message {
 	// bit 003
-    string processing_code = 1;
+    string processing_codes = 1;
 	// bit 004
     string amount = 2;
 	// bit 005

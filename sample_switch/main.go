@@ -40,10 +40,10 @@ func main() {
 	LogWrite("gRPC Client connected to :9090")
 	_ = client
 
-	InqHandler(client)
+	// InqHandler(client)
 	TransactionHandler(client)
-	ReversalHandler(client)
-	AdviceHandler(client)
+	// ReversalHandler(client)
+	// AdviceHandler(client)
 }
 
 func InqHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error) {
@@ -66,6 +66,8 @@ func TransactionHandler(client pb.TransactionServiceClient) (msg *pb.Message, er
 	msg = &pb.Message{
 		ResponseCode: "1111",
 		MsgResponse:  "Params TRX",
+		NewParams:    "Params1",
+		NewParams_2:  "Params2",
 	}
 
 	glg.Log("Send Transaction:\n", msg, "\n")

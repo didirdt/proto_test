@@ -25,7 +25,7 @@ const (
 type Message struct {
 	state protoimpl.MessageState `protogen:"open.v1"`
 	// bit 003
-	ProcessingCode string `protobuf:"bytes,1,opt,name=processing_code,json=processingCode,proto3" json:"processing_code,omitempty"`
+	ProcessingCodes string `protobuf:"bytes,1,opt,name=processing_codes,json=processingCodes,proto3" json:"processing_codes,omitempty"`
 	// bit 004
 	Amount string `protobuf:"bytes,2,opt,name=amount,proto3" json:"amount,omitempty"`
 	// bit 005
@@ -110,9 +110,9 @@ func (*Message) Descriptor() ([]byte, []int) {
 	return file_protobuff2_transaction_proto_rawDescGZIP(), []int{0}
 }
 
-func (x *Message) GetProcessingCode() string {
+func (x *Message) GetProcessingCodes() string {
 	if x != nil {
-		return x.ProcessingCode
+		return x.ProcessingCodes
 	}
 	return ""
 }
@@ -303,9 +303,9 @@ var File_protobuff2_transaction_proto protoreflect.FileDescriptor
 
 const file_protobuff2_transaction_proto_rawDesc = "" +
 	"\n" +
-	"\x1cprotobuff2/transaction.proto\x12\vtransaction\"\xec\x06\n" +
-	"\aMessage\x12'\n" +
-	"\x0fprocessing_code\x18\x01 \x01(\tR\x0eprocessingCode\x12\x16\n" +
+	"\x1cprotobuff2/transaction.proto\x12\vtransaction\"\xee\x06\n" +
+	"\aMessage\x12)\n" +
+	"\x10processing_codes\x18\x01 \x01(\tR\x0fprocessingCodes\x12\x16\n" +
 	"\x06amount\x18\x02 \x01(\tR\x06amount\x12!\n" +
 	"\fmarkup_total\x18\x03 \x01(\tR\vmarkupTotal\x12\x1b\n" +
 	"\tprofit_ex\x18\x04 \x01(\tR\bprofitEx\x12#\n" +
