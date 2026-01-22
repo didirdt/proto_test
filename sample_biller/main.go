@@ -38,6 +38,7 @@ func NewTransactionService() *TransactionService {
 
 func (s *TransactionService) Inquiry(ctx context.Context, msg *pb.Message) (*pb.Message, error) {
 	LogWrite(fmt.Sprintf("received Inquiry: %+v", msg))
+	msg.ProcessingCode = "12312312"
 	msg.ResponseCode = "0000"
 	msg.MsgResponse = "Inquiry"
 	return msg, nil
@@ -45,6 +46,7 @@ func (s *TransactionService) Inquiry(ctx context.Context, msg *pb.Message) (*pb.
 
 func (s *TransactionService) Transaction(ctx context.Context, msg *pb.Message) (*pb.Message, error) {
 	LogWrite(fmt.Sprintf("received Transaction: %+v", msg))
+	msg.ProcessingCode = "12312312"
 	msg.ResponseCode = "0000"
 	msg.MsgResponse = "Transaction"
 	return msg, nil

@@ -19,56 +19,54 @@ service TransactionService {
 
 // Data Message for request and response biller/switch
 message Message {
-	// bit 003
-    string processing_codes = 1;
-	// bit 004
-    string amount = 2;
-	// bit 005
-    string markup_total = 3;
-	// bit 006
-    string profit_ex = 4;
-	// bit 007
-    string biaya_layanan = 5;
-	// bit 008
-    string profit_in = 6;
-	// bit 009
-    string jumlah_tagihan = 7;
-	// bit 011
-    string stan = 8;
-	// bit 012
-    string datetime = 9;
-	// bit 013
-    string partner_ref = 10;
-	// bit 018
-    string merchant_type = 11;
-	// bit 026
-    string additional_1 = 12;
-	// bit 032
-    string bank_code = 13;
-	// bit 037
-    string additional_2 = 14;
-	// bit 039
-    string response_code = 15;
-	// bit 040
-    string additional_3 = 16;
-	// bit 041
-    string phone_number = 17;
-	// bit 042
-    string device_id = 18;
-	// bit 043
-    string account_number = 19;
-	// bit 047
-    string msg = 20;
-	// bit 048
-    string msg_response = 21;
-	// bit 061
-    string pin = 22;
-	// bit 100
-    string biller_code = 23;
-	// bit 103
-    string subscriber_id = 24;
-	// bit 104
-    string product_code = 25;
-    string new_params = 26;
-    string new_params_2 = 27;
+	// bit 003 = Processing Code
+    string bit_003 = 1;
+	// bit 004 = Amount, Transaction
+    string bit_004 = 2;
+	// bit 005 = Mark Up Total
+    string bit_005 = 3;
+	// bit 006 = Profit Excluded
+    string bit_006 = 4;
+	// bit 007 = Biaya Layanan
+    string bit_007 = 5;
+	// bit 008 = Profit Included
+    string bit_008 = 6;
+	// bit 009 = Jumlah Tagihan
+    string bit_009 = 7;
+	// bit 011 = STAN
+    string bit_011 = 8;
+	// bit 012 = Time, Local Transaction
+    string bit_012 = 9;
+	// bit 013 = Partner Ref Number
+    string bit_013 = 10;
+	// bit 018 = Merchant Type
+    string bit_018 = 11;
+	// bit 026 = Additional Data - 001
+    string bit_026 = 12;
+	// bit 032 = Acquiring Institution Code
+    string bit_032 = 13;
+	// bit 037 = Additional Data - 002
+    string bit_037 = 14;
+	// bit 039 = Response Code (RC)
+    string bit_039 = 15;
+	// bit 040 = Additional Data - 003
+    string bit_040 = 16;
+	// bit 041 = Source Of Fund Identificator (Phone Number)
+    string bit_041 = 17;
+	// bit 042 = Device / Apps Identificator 
+    string bit_042 = 18;
+	// bit 043 = Source Of Fund Identificator (Account Number)
+    string bit_043 = 19;
+	// bit 047 = Message
+    string bit_047 = 20;
+	// bit 048 = Additional Data - Public
+    string bit_048 = 21;
+	// bit 061 = Additional Data - Private
+    string bit_061 = 22;
+	// bit 100 = Biller Code
+    string bit_100 = 23;
+	// bit 103 = Account ID (ID Pelanggan)
+    string bit_103 = 24;
+	// bit 104 = Product Code
+    string bit_104 = 25;
 }

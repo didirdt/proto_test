@@ -48,8 +48,8 @@ func main() {
 
 func InqHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error) {
 	msg = &pb.Message{
-		ResponseCode: "1111",
-		MsgResponse:  "Params INQ",
+		Bit_039: "1111",
+		Bit_048: "Params INQ",
 	}
 
 	glg.Log("Send Inquiry:\n", msg, "\n")
@@ -64,10 +64,9 @@ func InqHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error)
 
 func TransactionHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error) {
 	msg = &pb.Message{
-		ResponseCode: "1111",
-		MsgResponse:  "Params TRX",
-		NewParams:    "Params1",
-		NewParams_2:  "Params2",
+		Bit_003: "asd123",
+		Bit_039: "1111",
+		Bit_048: "Params TRX",
 	}
 
 	glg.Log("Send Transaction:\n", msg, "\n")
@@ -82,8 +81,8 @@ func TransactionHandler(client pb.TransactionServiceClient) (msg *pb.Message, er
 
 func ReversalHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error) {
 	msg = &pb.Message{
-		ResponseCode: "1111",
-		MsgResponse:  "Params Reversal",
+		Bit_039: "1111",
+		Bit_048: "Params Reversal",
 	}
 
 	glg.Log("Send Reversal:\n", msg, "\n")
@@ -98,8 +97,8 @@ func ReversalHandler(client pb.TransactionServiceClient) (msg *pb.Message, err e
 
 func AdviceHandler(client pb.TransactionServiceClient) (msg *pb.Message, err error) {
 	msg = &pb.Message{
-		ResponseCode: "1111",
-		MsgResponse:  "Params Advice",
+		Bit_039: "1111",
+		Bit_048: "Params Advice",
 	}
 
 	glg.Log("Send Advice:\n", msg, "\n")

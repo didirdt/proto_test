@@ -24,58 +24,56 @@ const (
 // Data Message for request and response biller/switch
 type Message struct {
 	state protoimpl.MessageState `protogen:"open.v1"`
-	// bit 003
-	ProcessingCodes string `protobuf:"bytes,1,opt,name=processing_codes,json=processingCodes,proto3" json:"processing_codes,omitempty"`
-	// bit 004
-	Amount string `protobuf:"bytes,2,opt,name=amount,proto3" json:"amount,omitempty"`
-	// bit 005
-	MarkupTotal string `protobuf:"bytes,3,opt,name=markup_total,json=markupTotal,proto3" json:"markup_total,omitempty"`
-	// bit 006
-	ProfitEx string `protobuf:"bytes,4,opt,name=profit_ex,json=profitEx,proto3" json:"profit_ex,omitempty"`
-	// bit 007
-	BiayaLayanan string `protobuf:"bytes,5,opt,name=biaya_layanan,json=biayaLayanan,proto3" json:"biaya_layanan,omitempty"`
-	// bit 008
-	ProfitIn string `protobuf:"bytes,6,opt,name=profit_in,json=profitIn,proto3" json:"profit_in,omitempty"`
-	// bit 009
-	JumlahTagihan string `protobuf:"bytes,7,opt,name=jumlah_tagihan,json=jumlahTagihan,proto3" json:"jumlah_tagihan,omitempty"`
-	// bit 011
-	Stan string `protobuf:"bytes,8,opt,name=stan,proto3" json:"stan,omitempty"`
-	// bit 012
-	Datetime string `protobuf:"bytes,9,opt,name=datetime,proto3" json:"datetime,omitempty"`
-	// bit 013
-	PartnerRef string `protobuf:"bytes,10,opt,name=partner_ref,json=partnerRef,proto3" json:"partner_ref,omitempty"`
-	// bit 018
-	MerchantType string `protobuf:"bytes,11,opt,name=merchant_type,json=merchantType,proto3" json:"merchant_type,omitempty"`
-	// bit 026
-	Additional_1 string `protobuf:"bytes,12,opt,name=additional_1,json=additional1,proto3" json:"additional_1,omitempty"`
-	// bit 032
-	BankCode string `protobuf:"bytes,13,opt,name=bank_code,json=bankCode,proto3" json:"bank_code,omitempty"`
-	// bit 037
-	Additional_2 string `protobuf:"bytes,14,opt,name=additional_2,json=additional2,proto3" json:"additional_2,omitempty"`
-	// bit 039
-	ResponseCode string `protobuf:"bytes,15,opt,name=response_code,json=responseCode,proto3" json:"response_code,omitempty"`
-	// bit 040
-	Additional_3 string `protobuf:"bytes,16,opt,name=additional_3,json=additional3,proto3" json:"additional_3,omitempty"`
-	// bit 041
-	PhoneNumber string `protobuf:"bytes,17,opt,name=phone_number,json=phoneNumber,proto3" json:"phone_number,omitempty"`
-	// bit 042
-	DeviceId string `protobuf:"bytes,18,opt,name=device_id,json=deviceId,proto3" json:"device_id,omitempty"`
-	// bit 043
-	AccountNumber string `protobuf:"bytes,19,opt,name=account_number,json=accountNumber,proto3" json:"account_number,omitempty"`
-	// bit 047
-	Msg string `protobuf:"bytes,20,opt,name=msg,proto3" json:"msg,omitempty"`
-	// bit 048
-	MsgResponse string `protobuf:"bytes,21,opt,name=msg_response,json=msgResponse,proto3" json:"msg_response,omitempty"`
-	// bit 061
-	Pin string `protobuf:"bytes,22,opt,name=pin,proto3" json:"pin,omitempty"`
-	// bit 100
-	BillerCode string `protobuf:"bytes,23,opt,name=biller_code,json=billerCode,proto3" json:"biller_code,omitempty"`
-	// bit 103
-	SubscriberId string `protobuf:"bytes,24,opt,name=subscriber_id,json=subscriberId,proto3" json:"subscriber_id,omitempty"`
-	// bit 104
-	ProductCode   string `protobuf:"bytes,25,opt,name=product_code,json=productCode,proto3" json:"product_code,omitempty"`
-	NewParams     string `protobuf:"bytes,26,opt,name=new_params,json=newParams,proto3" json:"new_params,omitempty"`
-	NewParams_2   string `protobuf:"bytes,27,opt,name=new_params_2,json=newParams2,proto3" json:"new_params_2,omitempty"`
+	// bit 003 = Processing Code
+	Bit_003 string `protobuf:"bytes,1,opt,name=bit_003,json=bit003,proto3" json:"bit_003,omitempty"`
+	// bit 004 = Amount, Transaction
+	Bit_004 string `protobuf:"bytes,2,opt,name=bit_004,json=bit004,proto3" json:"bit_004,omitempty"`
+	// bit 005 = Mark Up Total
+	Bit_005 string `protobuf:"bytes,3,opt,name=bit_005,json=bit005,proto3" json:"bit_005,omitempty"`
+	// bit 006 = Profit Excluded
+	Bit_006 string `protobuf:"bytes,4,opt,name=bit_006,json=bit006,proto3" json:"bit_006,omitempty"`
+	// bit 007 = Biaya Layanan
+	Bit_007 string `protobuf:"bytes,5,opt,name=bit_007,json=bit007,proto3" json:"bit_007,omitempty"`
+	// bit 008 = Profit Included
+	Bit_008 string `protobuf:"bytes,6,opt,name=bit_008,json=bit008,proto3" json:"bit_008,omitempty"`
+	// bit 009 = Jumlah Tagihan
+	Bit_009 string `protobuf:"bytes,7,opt,name=bit_009,json=bit009,proto3" json:"bit_009,omitempty"`
+	// bit 011 = STAN
+	Bit_011 string `protobuf:"bytes,8,opt,name=bit_011,json=bit011,proto3" json:"bit_011,omitempty"`
+	// bit 012 = Time, Local Transaction
+	Bit_012 string `protobuf:"bytes,9,opt,name=bit_012,json=bit012,proto3" json:"bit_012,omitempty"`
+	// bit 013 = Partner Ref Number
+	Bit_013 string `protobuf:"bytes,10,opt,name=bit_013,json=bit013,proto3" json:"bit_013,omitempty"`
+	// bit 018 = Merchant Type
+	Bit_018 string `protobuf:"bytes,11,opt,name=bit_018,json=bit018,proto3" json:"bit_018,omitempty"`
+	// bit 026 = Additional Data - 001
+	Bit_026 string `protobuf:"bytes,12,opt,name=bit_026,json=bit026,proto3" json:"bit_026,omitempty"`
+	// bit 032 = Acquiring Institution Code
+	Bit_032 string `protobuf:"bytes,13,opt,name=bit_032,json=bit032,proto3" json:"bit_032,omitempty"`
+	// bit 037 = Additional Data - 002
+	Bit_037 string `protobuf:"bytes,14,opt,name=bit_037,json=bit037,proto3" json:"bit_037,omitempty"`
+	// bit 039 = Response Code (RC)
+	Bit_039 string `protobuf:"bytes,15,opt,name=bit_039,json=bit039,proto3" json:"bit_039,omitempty"`
+	// bit 040 = Additional Data - 003
+	Bit_040 string `protobuf:"bytes,16,opt,name=bit_040,json=bit040,proto3" json:"bit_040,omitempty"`
+	// bit 041 = Source Of Fund Identificator (Phone Number)
+	Bit_041 string `protobuf:"bytes,17,opt,name=bit_041,json=bit041,proto3" json:"bit_041,omitempty"`
+	// bit 042 = Device / Apps Identificator
+	Bit_042 string `protobuf:"bytes,18,opt,name=bit_042,json=bit042,proto3" json:"bit_042,omitempty"`
+	// bit 043 = Source Of Fund Identificator (Account Number)
+	Bit_043 string `protobuf:"bytes,19,opt,name=bit_043,json=bit043,proto3" json:"bit_043,omitempty"`
+	// bit 047 = Message
+	Bit_047 string `protobuf:"bytes,20,opt,name=bit_047,json=bit047,proto3" json:"bit_047,omitempty"`
+	// bit 048 = Additional Data - Public
+	Bit_048 string `protobuf:"bytes,21,opt,name=bit_048,json=bit048,proto3" json:"bit_048,omitempty"`
+	// bit 061 = Additional Data - Private
+	Bit_061 string `protobuf:"bytes,22,opt,name=bit_061,json=bit061,proto3" json:"bit_061,omitempty"`
+	// bit 100 = Biller Code
+	Bit_100 string `protobuf:"bytes,23,opt,name=bit_100,json=bit100,proto3" json:"bit_100,omitempty"`
+	// bit 103 = Account ID (ID Pelanggan)
+	Bit_103 string `protobuf:"bytes,24,opt,name=bit_103,json=bit103,proto3" json:"bit_103,omitempty"`
+	// bit 104 = Product Code
+	Bit_104       string `protobuf:"bytes,25,opt,name=bit_104,json=bit104,proto3" json:"bit_104,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
@@ -110,191 +108,177 @@ func (*Message) Descriptor() ([]byte, []int) {
 	return file_protobuff2_transaction_proto_rawDescGZIP(), []int{0}
 }
 
-func (x *Message) GetProcessingCodes() string {
+func (x *Message) GetBit_003() string {
 	if x != nil {
-		return x.ProcessingCodes
+		return x.Bit_003
 	}
 	return ""
 }
 
-func (x *Message) GetAmount() string {
+func (x *Message) GetBit_004() string {
 	if x != nil {
-		return x.Amount
+		return x.Bit_004
 	}
 	return ""
 }
 
-func (x *Message) GetMarkupTotal() string {
+func (x *Message) GetBit_005() string {
 	if x != nil {
-		return x.MarkupTotal
+		return x.Bit_005
 	}
 	return ""
 }
 
-func (x *Message) GetProfitEx() string {
+func (x *Message) GetBit_006() string {
 	if x != nil {
-		return x.ProfitEx
+		return x.Bit_006
 	}
 	return ""
 }
 
-func (x *Message) GetBiayaLayanan() string {
+func (x *Message) GetBit_007() string {
 	if x != nil {
-		return x.BiayaLayanan
+		return x.Bit_007
 	}
 	return ""
 }
 
-func (x *Message) GetProfitIn() string {
+func (x *Message) GetBit_008() string {
 	if x != nil {
-		return x.ProfitIn
+		return x.Bit_008
 	}
 	return ""
 }
 
-func (x *Message) GetJumlahTagihan() string {
+func (x *Message) GetBit_009() string {
 	if x != nil {
-		return x.JumlahTagihan
+		return x.Bit_009
 	}
 	return ""
 }
 
-func (x *Message) GetStan() string {
+func (x *Message) GetBit_011() string {
 	if x != nil {
-		return x.Stan
+		return x.Bit_011
 	}
 	return ""
 }
 
-func (x *Message) GetDatetime() string {
+func (x *Message) GetBit_012() string {
 	if x != nil {
-		return x.Datetime
+		return x.Bit_012
 	}
 	return ""
 }
 
-func (x *Message) GetPartnerRef() string {
+func (x *Message) GetBit_013() string {
 	if x != nil {
-		return x.PartnerRef
+		return x.Bit_013
 	}
 	return ""
 }
 
-func (x *Message) GetMerchantType() string {
+func (x *Message) GetBit_018() string {
 	if x != nil {
-		return x.MerchantType
+		return x.Bit_018
 	}
 	return ""
 }
 
-func (x *Message) GetAdditional_1() string {
+func (x *Message) GetBit_026() string {
 	if x != nil {
-		return x.Additional_1
+		return x.Bit_026
 	}
 	return ""
 }
 
-func (x *Message) GetBankCode() string {
+func (x *Message) GetBit_032() string {
 	if x != nil {
-		return x.BankCode
+		return x.Bit_032
 	}
 	return ""
 }
 
-func (x *Message) GetAdditional_2() string {
+func (x *Message) GetBit_037() string {
 	if x != nil {
-		return x.Additional_2
+		return x.Bit_037
 	}
 	return ""
 }
 
-func (x *Message) GetResponseCode() string {
+func (x *Message) GetBit_039() string {
 	if x != nil {
-		return x.ResponseCode
+		return x.Bit_039
 	}
 	return ""
 }
 
-func (x *Message) GetAdditional_3() string {
+func (x *Message) GetBit_040() string {
 	if x != nil {
-		return x.Additional_3
+		return x.Bit_040
 	}
 	return ""
 }
 
-func (x *Message) GetPhoneNumber() string {
+func (x *Message) GetBit_041() string {
 	if x != nil {
-		return x.PhoneNumber
+		return x.Bit_041
 	}
 	return ""
 }
 
-func (x *Message) GetDeviceId() string {
+func (x *Message) GetBit_042() string {
 	if x != nil {
-		return x.DeviceId
+		return x.Bit_042
 	}
 	return ""
 }
 
-func (x *Message) GetAccountNumber() string {
+func (x *Message) GetBit_043() string {
 	if x != nil {
-		return x.AccountNumber
+		return x.Bit_043
 	}
 	return ""
 }
 
-func (x *Message) GetMsg() string {
+func (x *Message) GetBit_047() string {
 	if x != nil {
-		return x.Msg
+		return x.Bit_047
 	}
 	return ""
 }
 
-func (x *Message) GetMsgResponse() string {
+func (x *Message) GetBit_048() string {
 	if x != nil {
-		return x.MsgResponse
+		return x.Bit_048
 	}
 	return ""
 }
 
-func (x *Message) GetPin() string {
+func (x *Message) GetBit_061() string {
 	if x != nil {
-		return x.Pin
+		return x.Bit_061
 	}
 	return ""
 }
 
-func (x *Message) GetBillerCode() string {
+func (x *Message) GetBit_100() string {
 	if x != nil {
-		return x.BillerCode
+		return x.Bit_100
 	}
 	return ""
 }
 
-func (x *Message) GetSubscriberId() string {
+func (x *Message) GetBit_103() string {
 	if x != nil {
-		return x.SubscriberId
+		return x.Bit_103
 	}
 	return ""
 }
 
-func (x *Message) GetProductCode() string {
+func (x *Message) GetBit_104() string {
 	if x != nil {
-		return x.ProductCode
-	}
-	return ""
-}
-
-func (x *Message) GetNewParams() string {
-	if x != nil {
-		return x.NewParams
-	}
-	return ""
-}
-
-func (x *Message) GetNewParams_2() string {
-	if x != nil {
-		return x.NewParams_2
+		return x.Bit_104
 	}
 	return ""
 }
@@ -303,40 +287,34 @@ var File_protobuff2_transaction_proto protoreflect.FileDescriptor
 
 const file_protobuff2_transaction_proto_rawDesc = "" +
 	"\n" +
-	"\x1cprotobuff2/transaction.proto\x12\vtransaction\"\xee\x06\n" +
-	"\aMessage\x12)\n" +
-	"\x10processing_codes\x18\x01 \x01(\tR\x0fprocessingCodes\x12\x16\n" +
-	"\x06amount\x18\x02 \x01(\tR\x06amount\x12!\n" +
-	"\fmarkup_total\x18\x03 \x01(\tR\vmarkupTotal\x12\x1b\n" +
-	"\tprofit_ex\x18\x04 \x01(\tR\bprofitEx\x12#\n" +
-	"\rbiaya_layanan\x18\x05 \x01(\tR\fbiayaLayanan\x12\x1b\n" +
-	"\tprofit_in\x18\x06 \x01(\tR\bprofitIn\x12%\n" +
-	"\x0ejumlah_tagihan\x18\a \x01(\tR\rjumlahTagihan\x12\x12\n" +
-	"\x04stan\x18\b \x01(\tR\x04stan\x12\x1a\n" +
-	"\bdatetime\x18\t \x01(\tR\bdatetime\x12\x1f\n" +
-	"\vpartner_ref\x18\n" +
-	" \x01(\tR\n" +
-	"partnerRef\x12#\n" +
-	"\rmerchant_type\x18\v \x01(\tR\fmerchantType\x12!\n" +
-	"\fadditional_1\x18\f \x01(\tR\vadditional1\x12\x1b\n" +
-	"\tbank_code\x18\r \x01(\tR\bbankCode\x12!\n" +
-	"\fadditional_2\x18\x0e \x01(\tR\vadditional2\x12#\n" +
-	"\rresponse_code\x18\x0f \x01(\tR\fresponseCode\x12!\n" +
-	"\fadditional_3\x18\x10 \x01(\tR\vadditional3\x12!\n" +
-	"\fphone_number\x18\x11 \x01(\tR\vphoneNumber\x12\x1b\n" +
-	"\tdevice_id\x18\x12 \x01(\tR\bdeviceId\x12%\n" +
-	"\x0eaccount_number\x18\x13 \x01(\tR\raccountNumber\x12\x10\n" +
-	"\x03msg\x18\x14 \x01(\tR\x03msg\x12!\n" +
-	"\fmsg_response\x18\x15 \x01(\tR\vmsgResponse\x12\x10\n" +
-	"\x03pin\x18\x16 \x01(\tR\x03pin\x12\x1f\n" +
-	"\vbiller_code\x18\x17 \x01(\tR\n" +
-	"billerCode\x12#\n" +
-	"\rsubscriber_id\x18\x18 \x01(\tR\fsubscriberId\x12!\n" +
-	"\fproduct_code\x18\x19 \x01(\tR\vproductCode\x12\x1d\n" +
-	"\n" +
-	"new_params\x18\x1a \x01(\tR\tnewParams\x12 \n" +
-	"\fnew_params_2\x18\x1b \x01(\tR\n" +
-	"newParams22\xf4\x01\n" +
+	"\x1cprotobuff2/transaction.proto\x12\vtransaction\"\xfa\x04\n" +
+	"\aMessage\x12\x17\n" +
+	"\abit_003\x18\x01 \x01(\tR\x06bit003\x12\x17\n" +
+	"\abit_004\x18\x02 \x01(\tR\x06bit004\x12\x17\n" +
+	"\abit_005\x18\x03 \x01(\tR\x06bit005\x12\x17\n" +
+	"\abit_006\x18\x04 \x01(\tR\x06bit006\x12\x17\n" +
+	"\abit_007\x18\x05 \x01(\tR\x06bit007\x12\x17\n" +
+	"\abit_008\x18\x06 \x01(\tR\x06bit008\x12\x17\n" +
+	"\abit_009\x18\a \x01(\tR\x06bit009\x12\x17\n" +
+	"\abit_011\x18\b \x01(\tR\x06bit011\x12\x17\n" +
+	"\abit_012\x18\t \x01(\tR\x06bit012\x12\x17\n" +
+	"\abit_013\x18\n" +
+	" \x01(\tR\x06bit013\x12\x17\n" +
+	"\abit_018\x18\v \x01(\tR\x06bit018\x12\x17\n" +
+	"\abit_026\x18\f \x01(\tR\x06bit026\x12\x17\n" +
+	"\abit_032\x18\r \x01(\tR\x06bit032\x12\x17\n" +
+	"\abit_037\x18\x0e \x01(\tR\x06bit037\x12\x17\n" +
+	"\abit_039\x18\x0f \x01(\tR\x06bit039\x12\x17\n" +
+	"\abit_040\x18\x10 \x01(\tR\x06bit040\x12\x17\n" +
+	"\abit_041\x18\x11 \x01(\tR\x06bit041\x12\x17\n" +
+	"\abit_042\x18\x12 \x01(\tR\x06bit042\x12\x17\n" +
+	"\abit_043\x18\x13 \x01(\tR\x06bit043\x12\x17\n" +
+	"\abit_047\x18\x14 \x01(\tR\x06bit047\x12\x17\n" +
+	"\abit_048\x18\x15 \x01(\tR\x06bit048\x12\x17\n" +
+	"\abit_061\x18\x16 \x01(\tR\x06bit061\x12\x17\n" +
+	"\abit_100\x18\x17 \x01(\tR\x06bit100\x12\x17\n" +
+	"\abit_103\x18\x18 \x01(\tR\x06bit103\x12\x17\n" +
+	"\abit_104\x18\x19 \x01(\tR\x06bit1042\xf4\x01\n" +
 	"\x12TransactionService\x125\n" +
 	"\aInquiry\x12\x14.transaction.Message\x1a\x14.transaction.Message\x129\n" +
 	"\vTransaction\x12\x14.transaction.Message\x1a\x14.transaction.Message\x126\n" +

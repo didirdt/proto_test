@@ -19,7 +19,7 @@ Ensure `$GOPATH/bin` (or `$GOBIN`) is in your `PATH`.
 From the repository root run:
 
 ```sh
-protoc --go_out=paths=source_relative:. --go-grpc_out=paths=source_relative:. protobuff/transaction.proto
+
 ```
 
 This will generate Go types and gRPC stubs in the `protobuff` package.
